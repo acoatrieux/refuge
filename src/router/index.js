@@ -5,6 +5,7 @@ import PetShow from "../views/PetShow";
 import Cart from "../views/Cart";
 import PetEdit from "../views/PetEdit";
 import PetCreate from "../views/PetCreate";
+import PetAddPrescription from "../views/PetAddPrescription";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
         path: '/new',
         name: 'PetCreate',
         component: PetCreate
+    },
+    {
+        path: '/new',
+        name: 'PetAddPrescription',
+        component: PetAddPrescription
     }
 ];
 
